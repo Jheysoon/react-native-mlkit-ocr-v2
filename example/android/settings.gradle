@@ -1,0 +1,6 @@
+rootProject.name = 'MlkitOcrV2Example'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativemlkitocrv2'
+project(':reactnativemlkitocrv2').projectDir = new File(rootProject.projectDir, '../../android')
