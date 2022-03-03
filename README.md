@@ -3,6 +3,7 @@
 MLKit for Text Recognition V2
 
 https://github.com/agoldis/react-native-mlkit-ocr
+
 https://developers.google.com/ml-kit/vision/text-recognition/v2
 
 ## Installation
