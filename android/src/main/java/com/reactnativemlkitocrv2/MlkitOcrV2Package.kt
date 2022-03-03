@@ -12,7 +12,7 @@ import com.facebook.react.bridge.JavaScriptModule
 
 class MlkitOcrV2Package : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-      return Arrays.asList<NativeModule>(MlkitOcrModule(reactContext))
+      return Arrays.asList<NativeModule>(MlkitOcrV2Module(reactContext))
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
