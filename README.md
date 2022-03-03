@@ -2,20 +2,24 @@
 
 MLKit for Text Recognition V2
 
+https://github.com/agoldis/react-native-mlkit-ocr
+https://developers.google.com/ml-kit/vision/text-recognition/v2
+
 ## Installation
 
 ```sh
-npm install react-native-mlkit-ocr-v2
+yarn add https://github.com/Jheysoon/react-native-mlkit-ocr-v2.git
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-mlkit-ocr-v2";
+import MlkitOcr from 'react-native-mlkit-ocr-v2';
 
 // ...
 
-const result = await multiply(3, 7);
+const resultFromUri = await MlkitOcr.detectFromUri(uri);
+const resultFromFile = await MlkitOcr.detectFromFile(path);
 ```
 
 ## Contributing
